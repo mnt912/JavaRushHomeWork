@@ -1,0 +1,44 @@
+package com.javarush.test.level07.lesson12.home03;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/* Максимальное и минимальное числа в массиве
+Создать массив на 20 чисел. Заполнить его числами с клавиатуры. Найти максимальное и минимальное числа в массиве.
+Вывести на экран максимальное и минимальное числа через пробел.
+*/
+
+public class Solution
+{
+    public static void main(String[] args) throws IOException
+    {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+        int  maximum = -1000;
+        int  minimum = 1000;
+
+        //напишите тут ваш код
+        int[] n = new int[20];
+
+        for (int i = 0; i < 20; i++)
+        {
+            int k = Integer.parseInt(reader.readLine());
+
+            if (k > maximum)
+            {
+                maximum = k;
+            }
+
+            if (k < minimum)
+            {
+                minimum = k;
+            }
+
+            n[i] = k;
+        }
+
+        System.out.println(maximum);
+        System.out.println(minimum);
+    }
+}

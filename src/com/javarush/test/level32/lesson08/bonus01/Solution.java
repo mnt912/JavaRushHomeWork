@@ -1,11 +1,6 @@
 package com.javarush.test.level32.lesson08.bonus01;
 
-import com.javarush.test.level32.lesson08.bonus01.Big;
-import com.javarush.test.level32.lesson08.bonus01.Item;
-import com.javarush.test.level32.lesson08.bonus01.Small;
-
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
 
 /* Дженерики для создания прокси-объекта
 В классе Solution создайте публичный метод getProxy

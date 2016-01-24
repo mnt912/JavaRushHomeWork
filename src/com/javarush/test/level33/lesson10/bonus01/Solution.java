@@ -1,9 +1,5 @@
 package com.javarush.test.level33.lesson10.bonus01;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.Marshaller;
-import java.io.StringWriter;
-
 /* Комментарий внутри xml
 Реализовать метод toXmlWithComment, который должен возвращать строку - xml представление объекта obj.
 В строке перед каждым тэгом tagName должен быть вставлен комментарий comment.

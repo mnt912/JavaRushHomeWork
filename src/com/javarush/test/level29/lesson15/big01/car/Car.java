@@ -1,7 +1,6 @@
 package com.javarush.test.level29.lesson15.big01.car;
 
 import java.util.Date;
-import java.util.concurrent.ExecutionException;
 
 public abstract class Car {
     static public final int TRUCK = 0;

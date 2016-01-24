@@ -1,6 +1,8 @@
 package com.javarush.test.level31.lesson02.home01;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.*;
 
 /* Проход по дереву файлов

@@ -1,7 +1,5 @@
 package com.javarush.test.level33.lesson15.big01.strategies;
 
-import com.google.common.collect.HashBiMap;
-
 import java.util.HashMap;
 
 public class OurHashBiMapStorageStrategy implements StorageStrategy {
